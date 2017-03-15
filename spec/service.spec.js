@@ -9,37 +9,9 @@ describe('omdb service', function() {
 		});
 	});
 	it('should return movie details', function() {
-		
-		// angular.mock.module({
-		// 	omdbApi: {
-		// 		search: function(query) {
-		// 			return 'star wars';
-		// 		}
-		// 	}
-		// });
-		// angular.mock.module(function($provide) {
-		// 	$provide.factory('omdbApi', function() {
-		// 		return {
-		// 			search: function() {
-		// 				return 'star wars';
-		// 			}
-		// 		}
-		// 	});
-		// });
-		// angular.mock.inject(function(_omdbApi_) {
-		// 	omdbApi = _omdbApi_;
-		// })
 		expect(omdbApi.search()).toEqual(movieData);
 	});
 	it('should return movie by id', function() {
-		// var omdbApi;
-		// angular.mock.module('omdb');
-		// angular.mock.inject(function(_omdbApi_) {
-		// 	omdbApi = _omdbApi_;
-		// });
-		// angular.mock.inject(function(_omdbApi_) {
-		// 	omdbApi = _omdbApi_;
-		// })
 		expect(omdbApi.find('tt0076759')).toEqual(movieDataById);
 	});
 });
