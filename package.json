@@ -1,17 +1,17 @@
 {
-  "name": "javascript-goodparts",
-  "version": "1.0.0",
-  "description": "Javascript good parts by ~ Douglas Crockford",
-  "main": "app.js",
-  "scripts": {
-    "test": "./node_modules/karma/bin/karma start"
-  },
-  "author": "Chandrasekar Arunachalam",
-  "license": "ISC",
-  "devDependencies": {
-    "jasmine-core": "^2.5.2",
-    "karma": "^1.5.0",
-    "karma-jasmine": "^1.1.0",
-    "karma-phantomjs-launcher": "^1.0.4"
-  }
+    "name": "javascript-goodparts",
+    "version": "1.0.0",
+    "description": "Javascript good parts by ~ Douglas Crockford",
+    "main": "app.js",
+    "scripts": {
+        "test": "./node_modules/karma/bin/karma start"
+    },
+    "author": "Chandrasekar Arunachalam",
+    "license": "ISC",
+    "devDependencies": {
+        "jasmine-core": "^2.5.2",
+        "karma": "^1.5.0",
+        "karma-jasmine": "^1.1.0",
+        "karma-phantomjs-launcher": "^1.0.4"
+    }
 }
